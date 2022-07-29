@@ -41,12 +41,12 @@ let tooltip = svg.append("text")
     .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.csv("https://raw.githubusercontent.com/fbecerra/dataexperiments/master/data/ingresos.csv")
+    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/datos-barras/datos/esperanza.csv")
 ]).then(function(datos) {
     let data = datos[0];
 
-    const x = 'Tramos de ingresos en pesos ($)';
-    const y = 'Proporción de personas ocupadas (%)';
+    const x = 'Distrito';
+    const y = 'mujer';
 
     data.forEach(d => {
         d[y] = +d[y];
