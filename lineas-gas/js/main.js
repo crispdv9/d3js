@@ -41,7 +41,7 @@ let tooltip = svg.append("text")
     .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.csv("datos/gas.csv")
+    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/lineas-gas/datos/gas.csv")
 ]).then(function(datos) {
 
     let data = datos[0];
@@ -49,8 +49,8 @@ Promise.all([
 
     let dateParse = d3.timeParse("%Y-%m-%d");
 
-    const x = 'Fecha';
-    const y = 'Total';
+    const x = 'week';
+    const y = 'valor';
 
     data.forEach(d => {
         d.values.forEach(v => {
