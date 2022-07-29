@@ -46,7 +46,7 @@ let yLabel = yAxis.append("g")
     .style("top", 0);
 
 Promise.all([
-    d3.json("https://raw.githubusercontent.com/fbecerra/dataexperiments/master/data/casos_covid19.json")
+    d3.csv("data/temperaturas.csv")
 ]).then(function(datos) {
 
     let data = datos[0];
