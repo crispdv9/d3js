@@ -2,7 +2,7 @@ const width = 500;
 const height = 400;
 
 const margin = {
-    left: 60,
+    left: 80,
     right: 20,
     top: 10,
     bottom: 70
@@ -26,7 +26,7 @@ let xLabel = xAxis.append("g")
     .attr("text-anchor", "middle")
     .style("font-size", "10px")
     .attr("fill", "black")
-    .attr("transform", `translate(${(width - margin.right) / 2}, 25)`);
+    .attr("transform", `translate(${(width - margin.right) / 1}, 50)`);
 
 let yLabel = yAxis.append("g")
     .append("text")
@@ -41,7 +41,7 @@ let tooltip = svg.append("text")
     .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/datos-barras/datos/esperanza.csv")
+    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/datos-barras/datos/esper-puntos.csv")
 ]).then(function(datos) {
     let data = datos[0];
 
@@ -61,14 +61,14 @@ Promise.all([
 
     let yScale = d3.scaleLinear()
         .range([height - margin.bottom, margin.top])
-        .domain([0, 20]);
+        .domain([60, 100]);
 
     xAxis.call(d3.axisBottom(xScale))
         .selectAll("text")
         .style("text-anchor", "end")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
-        .attr("transform", "rotate(-35)");
+        .attr("transform", "rotate(-90)");
     yAxis.call(d3.axisLeft(yScale));
     xLabel.text(x);
     yLabel.text(y);
@@ -115,7 +115,7 @@ Promise.all([
             // Actualiza tooltip
             tooltip.attr('x', xScale(d[x]))
                 .attr("y", yScale(d[y]) - 10)
-                .text(d[y] + '%');
+                .text(d[y] + 'años');
         })
         .on("mouseout", () => {
             // Actualiza barras
