@@ -1,0 +1,1346 @@
+[
+  {
+    "Country": "Lesotho",
+    "GDP per capita": 2598,
+    "Life expectancy": 47.1,
+    "Population": 2174645,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Central African Republic",
+    "GDP per capita": 599,
+    "Life expectancy": 49.6,
+    "Population": 4546100,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Swaziland",
+    "GDP per capita": 6095,
+    "Life expectancy": 51.8,
+    "Population": 1319011,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Afghanistan",
+    "GDP per capita": 1925,
+    "Life expectancy": 53.8,
+    "Population": 33736494,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Somalia",
+    "GDP per capita": 624,
+    "Life expectancy": 54.2,
+    "Population": 13908129,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "GDP per capita": 1386,
+    "Life expectancy": 55.6,
+    "Population": 1770526,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "South Sudan",
+    "GDP per capita": 3047,
+    "Life expectancy": 56.1,
+    "Population": 11882136,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Zambia",
+    "GDP per capita": 4034,
+    "Life expectancy": 56.7,
+    "Population": 16100587,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Mozambique",
+    "GDP per capita": 1176,
+    "Life expectancy": 57.1,
+    "Population": 28010691,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Sierra Leone",
+    "GDP per capita": 2085,
+    "Life expectancy": 57.1,
+    "Population": 7237025,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Chad",
+    "GDP per capita": 2191,
+    "Life expectancy": 57.4,
+    "Population": 14009413,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Botswana",
+    "GDP per capita": 17196,
+    "Life expectancy": 58.7,
+    "Population": 2209197,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Guinea",
+    "GDP per capita": 1225,
+    "Life expectancy": 59.1,
+    "Population": 12091533,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Cote d'Ivoire",
+    "GDP per capita": 3491,
+    "Life expectancy": 59.1,
+    "Population": 23108472,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Zimbabwe",
+    "GDP per capita": 1801,
+    "Life expectancy": 59.3,
+    "Population": 15777451,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Cameroon",
+    "GDP per capita": 2897,
+    "Life expectancy": 59.4,
+    "Population": 22834522,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Angola",
+    "GDP per capita": 7615,
+    "Life expectancy": 59.6,
+    "Population": 27859305,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Mali",
+    "GDP per capita": 1684,
+    "Life expectancy": 60.2,
+    "Population": 17467905,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Malawi",
+    "GDP per capita": 799,
+    "Life expectancy": 60.5,
+    "Population": 17573607,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Congo, Dem. Rep.",
+    "GDP per capita": 809,
+    "Life expectancy": 60.8,
+    "Population": 76196619,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Burkina Faso",
+    "GDP per capita": 1654,
+    "Life expectancy": 60.9,
+    "Population": 18110624,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Papua New Guinea",
+    "GDP per capita": 2529,
+    "Life expectancy": 60.9,
+    "Population": 7919825,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Niger",
+    "GDP per capita": 943,
+    "Life expectancy": 61,
+    "Population": 19896965,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "GDP per capita": 31087,
+    "Life expectancy": 61,
+    "Population": 1175389,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Uganda",
+    "GDP per capita": 1680,
+    "Life expectancy": 61.3,
+    "Population": 40144870,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "South Africa",
+    "GDP per capita": 12509,
+    "Life expectancy": 61.3,
+    "Population": 55291225,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Burundi",
+    "GDP per capita": 777,
+    "Life expectancy": 61.4,
+    "Population": 10199270,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Togo",
+    "GDP per capita": 1433,
+    "Life expectancy": 61.5,
+    "Population": 7416802,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Congo, Rep.",
+    "GDP per capita": 6220,
+    "Life expectancy": 61.5,
+    "Population": 4995648,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Benin",
+    "GDP per capita": 1830,
+    "Life expectancy": 62.3,
+    "Population": 10575952,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Kiribati",
+    "GDP per capita": 1824,
+    "Life expectancy": 63,
+    "Population": 112407,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Liberia",
+    "GDP per capita": 958,
+    "Life expectancy": 63.2,
+    "Population": 4499621,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Madagascar",
+    "GDP per capita": 1400,
+    "Life expectancy": 63.5,
+    "Population": 24234088,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Djibouti",
+    "GDP per capita": 3139,
+    "Life expectancy": 63.8,
+    "Population": 927414,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Solomon Islands",
+    "GDP per capita": 2047,
+    "Life expectancy": 64,
+    "Population": 587482,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Tanzania",
+    "GDP per capita": 2571,
+    "Life expectancy": 64.1,
+    "Population": 53879957,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Namibia",
+    "GDP per capita": 10040,
+    "Life expectancy": 64.2,
+    "Population": 2425561,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Haiti",
+    "GDP per capita": 1710,
+    "Life expectancy": 64.3,
+    "Population": 10711061,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Nigeria",
+    "GDP per capita": 5727,
+    "Life expectancy": 64.6,
+    "Population": 181181744,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Vanuatu",
+    "GDP per capita": 2912,
+    "Life expectancy": 64.9,
+    "Population": 264603,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Kenya",
+    "GDP per capita": 2898,
+    "Life expectancy": 65.1,
+    "Population": 47236259,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Ethiopia",
+    "GDP per capita": 1520,
+    "Life expectancy": 65.2,
+    "Population": 99873033,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Senegal",
+    "GDP per capita": 2251,
+    "Life expectancy": 65.3,
+    "Population": 14976994,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Ghana",
+    "GDP per capita": 4099,
+    "Life expectancy": 65.3,
+    "Population": 27582821,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Fiji",
+    "GDP per capita": 7925,
+    "Life expectancy": 65.8,
+    "Population": 892149,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Rwanda",
+    "GDP per capita": 1549,
+    "Life expectancy": 65.9,
+    "Population": 11629553,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Pakistan",
+    "GDP per capita": 4743,
+    "Life expectancy": 65.9,
+    "Population": 189380513,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Gabon",
+    "GDP per capita": 18627,
+    "Life expectancy": 65.9,
+    "Population": 1930175,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Yemen",
+    "GDP per capita": 3887,
+    "Life expectancy": 66,
+    "Population": 26916207,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Guyana",
+    "GDP per capita": 6816,
+    "Life expectancy": 66.8,
+    "Population": 768514,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Marshall Islands",
+    "GDP per capita": 3661,
+    "Life expectancy": 66.9,
+    "Population": 52994,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Lao",
+    "GDP per capita": 5212,
+    "Life expectancy": 67.1,
+    "Population": 6663967,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Mongolia",
+    "GDP per capita": 11819,
+    "Life expectancy": 67.1,
+    "Population": 2976877,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "India",
+    "GDP per capita": 5903,
+    "Life expectancy": 67.2,
+    "Population": 1309053980,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Iraq",
+    "GDP per capita": 14646,
+    "Life expectancy": 67.4,
+    "Population": 36115649,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Sudan",
+    "GDP per capita": 3975,
+    "Life expectancy": 67.5,
+    "Population": 38647803,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "GDP per capita": 3003,
+    "Life expectancy": 68,
+    "Population": 195553,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Myanmar",
+    "GDP per capita": 4012,
+    "Life expectancy": 68,
+    "Population": 52403669,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Comoros",
+    "GDP per capita": 1472,
+    "Life expectancy": 68.1,
+    "Population": 777424,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Gambia",
+    "GDP per capita": 1644,
+    "Life expectancy": 68.1,
+    "Population": 1977590,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Syria",
+    "GDP per capita": 4637,
+    "Life expectancy": 68.2,
+    "Population": 18734987,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Micronesia, Fed. Sts.",
+    "GDP per capita": 3510,
+    "Life expectancy": 68.9,
+    "Population": 104433,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Cambodia",
+    "GDP per capita": 3267,
+    "Life expectancy": 69.4,
+    "Population": 15517635,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Nepal",
+    "GDP per capita": 2352,
+    "Life expectancy": 69.7,
+    "Population": 28656282,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Mauritania",
+    "GDP per capita": 3877,
+    "Life expectancy": 69.7,
+    "Population": 4182341,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Kyrgyz Republic",
+    "GDP per capita": 3245,
+    "Life expectancy": 69.8,
+    "Population": 5956900,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Turkmenistan",
+    "GDP per capita": 15865,
+    "Life expectancy": 70,
+    "Population": 5565284,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Kazakhstan",
+    "GDP per capita": 23468,
+    "Life expectancy": 70.2,
+    "Population": 17544126,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Bangladesh",
+    "GDP per capita": 3161,
+    "Life expectancy": 70.4,
+    "Population": 161200886,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Philippines",
+    "GDP per capita": 6876,
+    "Life expectancy": 71,
+    "Population": 101716359,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Belarus",
+    "GDP per capita": 17415,
+    "Life expectancy": 71,
+    "Population": 9489616,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Russia",
+    "GDP per capita": 23038,
+    "Life expectancy": 71,
+    "Population": 144096870,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Indonesia",
+    "GDP per capita": 10504,
+    "Life expectancy": 71.1,
+    "Population": 258162113,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "St. Vincent and the Grenadines",
+    "GDP per capita": 10435,
+    "Life expectancy": 71.2,
+    "Population": 109455,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Tonga",
+    "GDP per capita": 5069,
+    "Life expectancy": 71.5,
+    "Population": 106364,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Ukraine",
+    "GDP per capita": 8449,
+    "Life expectancy": 71.5,
+    "Population": 45154029,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Egypt",
+    "GDP per capita": 11031,
+    "Life expectancy": 71.5,
+    "Population": 93778172,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Grenada",
+    "GDP per capita": 11593,
+    "Life expectancy": 71.5,
+    "Population": 106823,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Belize",
+    "GDP per capita": 8501,
+    "Life expectancy": 71.7,
+    "Population": 359288,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Uzbekistan",
+    "GDP per capita": 5598,
+    "Life expectancy": 71.8,
+    "Population": 31298900,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Suriname",
+    "GDP per capita": 17125,
+    "Life expectancy": 72,
+    "Population": 553208,
+    "Continent": "South America"
+  },
+  {
+    "Country": "North Korea",
+    "GDP per capita": 1390,
+    "Life expectancy": 72.1,
+    "Population": 25243917,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Greenland",
+    "GDP per capita": 27763,
+    "Life expectancy": 72.1,
+    "Population": 56114,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Timor-Leste",
+    "GDP per capita": 2086,
+    "Life expectancy": 72.4,
+    "Population": 1240977,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Tajikistan",
+    "GDP per capita": 2582,
+    "Life expectancy": 72.4,
+    "Population": 8548651,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "GDP per capita": 30113,
+    "Life expectancy": 72.4,
+    "Population": 1360092,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Guatemala",
+    "GDP per capita": 7279,
+    "Life expectancy": 72.6,
+    "Population": 16252429,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Bhutan",
+    "GDP per capita": 7983,
+    "Life expectancy": 72.7,
+    "Population": 787386,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Georgia",
+    "GDP per capita": 7474,
+    "Life expectancy": 72.9,
+    "Population": 3717100,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Azerbaijan",
+    "GDP per capita": 16986,
+    "Life expectancy": 72.9,
+    "Population": 9649341,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Honduras",
+    "GDP per capita": 4270,
+    "Life expectancy": 73,
+    "Population": 8960829,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Dominica",
+    "GDP per capita": 10503,
+    "Life expectancy": 73.1,
+    "Population": 73162,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Samoa",
+    "GDP per capita": 5558,
+    "Life expectancy": 73.2,
+    "Population": 193759,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Bolivia",
+    "GDP per capita": 6295,
+    "Life expectancy": 73.2,
+    "Population": 10724705,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Bahamas",
+    "GDP per capita": 22818,
+    "Life expectancy": 73.7,
+    "Population": 386838,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Moldova",
+    "GDP per capita": 4896,
+    "Life expectancy": 73.9,
+    "Population": 3554108,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Libya",
+    "GDP per capita": 17261,
+    "Life expectancy": 74.1,
+    "Population": 6234955,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Seychelles",
+    "GDP per capita": 25684,
+    "Life expectancy": 74.1,
+    "Population": 93419,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Paraguay",
+    "GDP per capita": 8219,
+    "Life expectancy": 74.4,
+    "Population": 6639119,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Brazil",
+    "GDP per capita": 15441,
+    "Life expectancy": 74.4,
+    "Population": 205962108,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Mauritius",
+    "GDP per capita": 18350,
+    "Life expectancy": 74.5,
+    "Population": 1262605,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "West Bank and Gaza",
+    "GDP per capita": 4319,
+    "Life expectancy": 74.6,
+    "Population": 4422143,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Morocco",
+    "GDP per capita": 7319,
+    "Life expectancy": 74.6,
+    "Population": 34803322,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Iran",
+    "GDP per capita": 15573,
+    "Life expectancy": 74.6,
+    "Population": 79360487,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Armenia",
+    "GDP per capita": 7763,
+    "Life expectancy": 74.7,
+    "Population": 2916950,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Thailand",
+    "GDP per capita": 14512,
+    "Life expectancy": 74.7,
+    "Population": 68657600,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "St. Lucia",
+    "GDP per capita": 9997,
+    "Life expectancy": 74.8,
+    "Population": 177206,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Venezuela",
+    "GDP per capita": 15753,
+    "Life expectancy": 74.8,
+    "Population": 31155134,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Bulgaria",
+    "GDP per capita": 16371,
+    "Life expectancy": 74.8,
+    "Population": 7177991,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "El Salvador",
+    "GDP per capita": 7776,
+    "Life expectancy": 74.9,
+    "Population": 6312478,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Jamaica",
+    "GDP per capita": 8606,
+    "Life expectancy": 75,
+    "Population": 2871934,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Romania",
+    "GDP per capita": 19203,
+    "Life expectancy": 75.2,
+    "Population": 19815481,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Lithuania",
+    "GDP per capita": 26665,
+    "Life expectancy": 75.2,
+    "Population": 2904910,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Dominican Republic",
+    "GDP per capita": 12837,
+    "Life expectancy": 75.3,
+    "Population": 10528394,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Malaysia",
+    "GDP per capita": 24320,
+    "Life expectancy": 75.3,
+    "Population": 30723155,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Vietnam",
+    "GDP per capita": 5623,
+    "Life expectancy": 75.4,
+    "Population": 93571567,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Latvia",
+    "GDP per capita": 23282,
+    "Life expectancy": 75.4,
+    "Population": 1977527,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "GDP per capita": 60749,
+    "Life expectancy": 75.4,
+    "Population": 9154302,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Barbados",
+    "GDP per capita": 12984,
+    "Life expectancy": 75.7,
+    "Population": 284217,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Aruba",
+    "GDP per capita": 37138,
+    "Life expectancy": 75.72,
+    "Population": 104341,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Ecuador",
+    "GDP per capita": 10996,
+    "Life expectancy": 75.9,
+    "Population": 16144368,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Mexico",
+    "GDP per capita": 16850,
+    "Life expectancy": 75.9,
+    "Population": 125890949,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Serbia",
+    "GDP per capita": 12908,
+    "Life expectancy": 76.2,
+    "Population": 7095383,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "China",
+    "GDP per capita": 13334,
+    "Life expectancy": 76.2,
+    "Population": 1371220000,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Algeria",
+    "GDP per capita": 13434,
+    "Life expectancy": 76.4,
+    "Population": 39871528,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "GDP per capita": 21049,
+    "Life expectancy": 76.4,
+    "Population": 99923,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Macedonia, FYR",
+    "GDP per capita": 12547,
+    "Life expectancy": 76.5,
+    "Population": 2079308,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Argentina",
+    "GDP per capita": 17344,
+    "Life expectancy": 76.5,
+    "Population": 43417765,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Hungary",
+    "GDP per capita": 24200,
+    "Life expectancy": 76.7,
+    "Population": 9843028,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Uruguay",
+    "GDP per capita": 20438,
+    "Life expectancy": 76.8,
+    "Population": 3431552,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Brunei",
+    "GDP per capita": 73003,
+    "Life expectancy": 77.1,
+    "Population": 417542,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Montenegro",
+    "GDP per capita": 14833,
+    "Life expectancy": 77.2,
+    "Population": 622159,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Oman",
+    "GDP per capita": 48226,
+    "Life expectancy": 77.2,
+    "Population": 4199810,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Sri Lanka",
+    "GDP per capita": 10624,
+    "Life expectancy": 77.6,
+    "Population": 20966000,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Tunisia",
+    "GDP per capita": 11126,
+    "Life expectancy": 77.6,
+    "Population": 11273661,
+    "Continent": "Africa"
+  },
+  {
+    "Country": "Poland",
+    "GDP per capita": 24787,
+    "Life expectancy": 77.6,
+    "Population": 37986412,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Slovak Republic",
+    "GDP per capita": 27204,
+    "Life expectancy": 77.6,
+    "Population": 5423801,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Croatia",
+    "GDP per capita": 20260,
+    "Life expectancy": 77.8,
+    "Population": 4203604,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Estonia",
+    "GDP per capita": 26812,
+    "Life expectancy": 77.8,
+    "Population": 1315407,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Nicaragua",
+    "GDP per capita": 4712,
+    "Life expectancy": 78,
+    "Population": 6082035,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Albania",
+    "GDP per capita": 10620,
+    "Life expectancy": 78,
+    "Population": 2880703,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Colombia",
+    "GDP per capita": 12761,
+    "Life expectancy": 78,
+    "Population": 48228697,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Panama",
+    "GDP per capita": 20485,
+    "Life expectancy": 78.2,
+    "Population": 3969249,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Cuba",
+    "GDP per capita": 21291,
+    "Life expectancy": 78.2,
+    "Population": 11461432,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Jordan",
+    "GDP per capita": 11752,
+    "Life expectancy": 78.5,
+    "Population": 9159302,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Puerto Rico",
+    "GDP per capita": 33604,
+    "Life expectancy": 78.5,
+    "Population": 3473181,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Bermuda",
+    "GDP per capita": 47081,
+    "Life expectancy": 78.5,
+    "Population": 65250,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Czech Republic",
+    "GDP per capita": 29437,
+    "Life expectancy": 78.8,
+    "Population": 10546059,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "GDP per capita": 9833,
+    "Life expectancy": 78.9,
+    "Population": 3535961,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Lebanon",
+    "GDP per capita": 17050,
+    "Life expectancy": 78.9,
+    "Population": 5851479,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Bahrain",
+    "GDP per capita": 44138,
+    "Life expectancy": 79.1,
+    "Population": 1371855,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "United States",
+    "GDP per capita": 53354,
+    "Life expectancy": 79.1,
+    "Population": 320896618,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Turkey",
+    "GDP per capita": 19360,
+    "Life expectancy": 79.2,
+    "Population": 78271472,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Chile",
+    "GDP per capita": 22465,
+    "Life expectancy": 79.4,
+    "Population": 17762681,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Peru",
+    "GDP per capita": 11903,
+    "Life expectancy": 79.5,
+    "Population": 31376671,
+    "Continent": "South America"
+  },
+  {
+    "Country": "Taiwan",
+    "GDP per capita": 42948,
+    "Life expectancy": 79.5,
+    "Population": 23485755,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "GDP per capita": 52469,
+    "Life expectancy": 79.5,
+    "Population": 31557144,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Qatar",
+    "GDP per capita": 132877,
+    "Life expectancy": 79.7,
+    "Population": 2481539,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Maldives",
+    "GDP per capita": 14408,
+    "Life expectancy": 80,
+    "Population": 418403,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Costa Rica",
+    "GDP per capita": 14132,
+    "Life expectancy": 80.3,
+    "Population": 4807852,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Kuwait",
+    "GDP per capita": 82633,
+    "Life expectancy": 80.3,
+    "Population": 3935794,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Denmark",
+    "GDP per capita": 43495,
+    "Life expectancy": 80.4,
+    "Population": 5683483,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Belgium",
+    "GDP per capita": 41240,
+    "Life expectancy": 80.5,
+    "Population": 11274196,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Portugal",
+    "GDP per capita": 26437,
+    "Life expectancy": 80.8,
+    "Population": 10358076,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Germany",
+    "GDP per capita": 44053,
+    "Life expectancy": 80.8,
+    "Population": 81686611,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Macao China",
+    "GDP per capita": 148374,
+    "Life expectancy": 80.82,
+    "Population": 600942,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Slovenia",
+    "GDP per capita": 28550,
+    "Life expectancy": 80.9,
+    "Population": 2063531,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Finland",
+    "GDP per capita": 38923,
+    "Life expectancy": 80.9,
+    "Population": 5479531,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Greece",
+    "GDP per capita": 25430,
+    "Life expectancy": 81,
+    "Population": 10820883,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "South Korea",
+    "GDP per capita": 34644,
+    "Life expectancy": 81,
+    "Population": 51014947,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "United Kingdom",
+    "GDP per capita": 38225,
+    "Life expectancy": 81,
+    "Population": 65128861,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Austria",
+    "GDP per capita": 44401,
+    "Life expectancy": 81.3,
+    "Population": 8633169,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Netherlands",
+    "GDP per capita": 45784,
+    "Life expectancy": 81.3,
+    "Population": 16939923,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "New Zealand",
+    "GDP per capita": 34186,
+    "Life expectancy": 81.4,
+    "Population": 4595700,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Canada",
+    "GDP per capita": 43294,
+    "Life expectancy": 81.7,
+    "Population": 35832513,
+    "Continent": "North America"
+  },
+  {
+    "Country": "Ireland",
+    "GDP per capita": 47758,
+    "Life expectancy": 81.7,
+    "Population": 4646554,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Cyprus",
+    "GDP per capita": 29797,
+    "Life expectancy": 81.8,
+    "Population": 1160985,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "France",
+    "GDP per capita": 37599,
+    "Life expectancy": 81.8,
+    "Population": 66624068,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Norway",
+    "GDP per capita": 64304,
+    "Life expectancy": 82,
+    "Population": 5190239,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Singapore",
+    "GDP per capita": 80794,
+    "Life expectancy": 82,
+    "Population": 5535002,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Malta",
+    "GDP per capita": 30265,
+    "Life expectancy": 82.1,
+    "Population": 431874,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Israel",
+    "GDP per capita": 31590,
+    "Life expectancy": 82.1,
+    "Population": 8380100,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Sweden",
+    "GDP per capita": 44892,
+    "Life expectancy": 82.1,
+    "Population": 9799186,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Italy",
+    "GDP per capita": 33297,
+    "Life expectancy": 82.2,
+    "Population": 60730582,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Luxembourg",
+    "GDP per capita": 88314,
+    "Life expectancy": 82.2,
+    "Population": 569604,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Australia",
+    "GDP per capita": 44056,
+    "Life expectancy": 82.3,
+    "Population": 23850784,
+    "Continent": "Australia"
+  },
+  {
+    "Country": "Spain",
+    "GDP per capita": 32979,
+    "Life expectancy": 82.6,
+    "Population": 46444832,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Switzerland",
+    "GDP per capita": 56118,
+    "Life expectancy": 83,
+    "Population": 8282396,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Japan",
+    "GDP per capita": 36162,
+    "Life expectancy": 83.2,
+    "Population": 127141000,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Iceland",
+    "GDP per capita": 42182,
+    "Life expectancy": 83.3,
+    "Population": 330815,
+    "Continent": "Europe"
+  },
+  {
+    "Country": "Hong Kong",
+    "GDP per capita": 53874,
+    "Life expectancy": 83.73,
+    "Population": 7291300,
+    "Continent": "Asia"
+  },
+  {
+    "Country": "Andorra",
+    "GDP per capita": 46577,
+    "Life expectancy": 84.8,
+    "Population": 78014,
+    "Continent": "Europe"
+  }
+]

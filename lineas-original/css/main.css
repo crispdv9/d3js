@@ -1,0 +1,13 @@
+.tooltip {
+    background: rgba(255,255,255,.9);
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 4px;
+    pointer-events: none;
+    text-align: left;
+}
+
+.tooltip p {
+    margin: 4px 0;
+}
