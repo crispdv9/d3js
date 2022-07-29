@@ -2,6 +2,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+#barras{
+margin:0 auto;
+    width:60%;
+}
+
+#barras2{
+    margin:0 auto;
+        width:60%;
+    }
 .tooltip {
     background: rgba(255,255,255,.9);
     border: 1px solid black;
@@ -10,11 +20,12 @@ body{
     padding: 4px;
     pointer-events: none;
     text-align: left;
-    width: 90px;
+    width: 120px;
 }
 
 .tooltip p {
     margin: 4px 0;
+    width:100%;
 }
 
 h2{
