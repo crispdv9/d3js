@@ -10,8 +10,7 @@ const margin = {
 
 let svg = d3.select("body").append("svg")
     .attr("width", width)
-    .attr("height", height)
-    .attr("class","chart");
+    .attr("height", height);
 
 let xAxis = svg.append("g")
     .attr("class", "axis axis--x")
@@ -37,22 +36,16 @@ let yLabel = yAxis.append("g")
     .attr("fill", "black")
     .attr("transform", `translate(10, ${margin.top}) rotate(-90)`);
 
-    let tooltip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("display", "none")
-    .style("position", "absolute")
-    .style("z-index", 1)
-    .style("left", 0)
-    .style("top", 0);
+let tooltip = svg.append("text")
+    .style("font-size", "10px")
+    .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.json("https://raw.githubusercontent.com/fbecerra/dataexperiments/master/data/casos_covid19.json")
+    d3.csv("data/gas.csv")
 ]).then(function(datos) {
 
     let data = datos[0];
     console.log(data)
-
-
 
     let dateParse = d3.timeParse("%Y-%m-%d");
 
@@ -78,6 +71,11 @@ Promise.all([
         .range([height - margin.bottom, margin.top])
         .domain([yMin, yMax]);
 
+    let line = d3.line()
+        .curve(d3.curveMonotoneX)
+        .x(d => xScale(d[x]))
+        .y(d => yScale(d[y]));
+
     xAxis.call(
         d3.axisBottom(xScale)
             .tickFormat(d3.timeFormat("%d/%m/%y"))
@@ -87,53 +85,23 @@ Promise.all([
     xLabel.text(x);
     yLabel.text(y);
 
-    let dots = data.map(d => d.values).flat();
+    let curves = svg.selectAll(".curve")
+        .data(data);
 
-    let circles = svg.selectAll(".circle")
-    .data(dots);
-
-    circles.enter()
-        .append("circle")
-        .attr("cx", d => xScale(d[x]))
-        .attr("cy", d => yScale(d[y]))
-        .attr("r", 1)
-        .attr("fill", "red")
+    curves.enter()
+        .append("path")
+        .attr("class", "curve")
+        .attr("fill", "none")
+        .attr("stroke-width", 2.0)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .style("mix-blend-mode", "multiply")
         .style("opacity", 1.0)
+        .attr("stroke", 'steelblue')
+        .attr("d", d => line(d.values))
         .on("mousemove", (event, d) => {
             // Actualiza curvas
-            d3.selectAll(".circle")
-                .style("opacity", 0.2)
-            d3.select(event.target)
-                .style("opacity", 1.0);
-            //toltip
-                tooltip.html(`<p><strong>Región</strong> ${d.region}</p>
-                <p><strong>Population</strong> ${d.Total}</p>
-                <p><strong>GDP per capita</strong> ${d.x}</p>
-                <p><strong>Life expectancy</strong> ${d.y}</p>`)
-                .style("left", (event.pageX + 10) + 'px')
-                .style("top", event.pageY + 'px')
-                .style("display", "block");
-        })
-        .on("mouseout", () => {
-            // Actualiza barras
-            d3.selectAll('.circle')
-                .style("opacity", 1.0);
-            // Actualiza tooltip
-            tooltip.text('');
-            tooltip.style("display", "none");
-
-        });
-
-    circles
-    .append("circle")
-    .attr("cx", d => xScale(d[x]))
-    .attr("cy", d => yScale(d[y]))
-    .attr("r", 10)
-    .attr("fill", "red")
-        .style("opacity", 1.0)
-        .on("mousemove", (event, d) => {
-            // Actualiza curvas
-            d3.selectAll(".circle")
+            d3.selectAll(".curve")
                 .style("opacity", 0.2)
             d3.select(event.target)
                 .style("opacity", 1.0);
@@ -144,11 +112,40 @@ Promise.all([
         })
         .on("mouseout", () => {
             // Actualiza barras
-            d3.selectAll('.circle')
+            d3.selectAll('.curve')
                 .style("opacity", 1.0);
             // Actualiza tooltip
             tooltip.text('');
         });
 
-      circles.exit().remove();
+    curves
+        .attr("class", "curve")
+        .attr("fill", "none")
+        .attr("stroke-width", 2.0)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .style("mix-blend-mode", "multiply")
+        .style("opacity", 1.0)
+        .attr("stroke", 'steelblue')
+        .attr("d", d => line(d.values))
+        .on("mousemove", (event, d) => {
+            // Actualiza curvas
+            d3.selectAll(".curve")
+                .style("opacity", 0.2)
+            d3.select(event.target)
+                .style("opacity", 1.0);
+            // Actualiza tooltip
+            tooltip.attr('x', xScale(d.values[d.values.length - 1][x]) + 5)
+                .attr("y", yScale(d.values[d.values.length - 1][y]))
+                .text(d.region);
+        })
+        .on("mouseout", () => {
+            // Actualiza barras
+            d3.selectAll('.curve')
+                .style("opacity", 1.0);
+            // Actualiza tooltip
+            tooltip.text('');
+        });
+
+    curves.exit().remove();
 });

@@ -46,7 +46,7 @@ let yLabel = yAxis.append("g")
     .style("top", 0);
 
 Promise.all([
-    d3.csv("data/temperaturas.csv")
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTJr8q1aO18v-iNO0Oalmsc_48mJclgOx34p6VMt3QTFKsWZiPGkrVPlpRGM9fbuOQ0LjtzfBhB7gXG/pub?gid=0&single=true&output=csv")
 ]).then(function(datos) {
 
     let data = datos[0];
@@ -54,8 +54,8 @@ Promise.all([
 
     let dateParse = d3.timeParse("%Y-%m-%d");
 
-    const x = 'Fecha';
-    const y = 'Total';
+    const x = 'fecha';
+    const y = 'Temperaturamedia-mensual';
 
     data.forEach(d => {
         d.values.forEach(v => {
@@ -85,14 +85,15 @@ Promise.all([
     xLabel.text(x);
     yLabel.text(y);
 
-    let circles = svg.selectAll(".circle")
-    .data(data.map(d => d.values));
+    let dots = data.map(d => d.values).flat();
 
+    let circles = svg.selectAll(".circle")
+    .data(dots);
 
     circles.enter()
         .append("circle")
-        .attr("cx", d => xScale(d.x))
-        .attr("cy", d => yScale(d.y))
+        .attr("cx", d => xScale(d[x]))
+        .attr("cy", d => yScale(d[y]))
         .attr("r", 10)
         .attr("fill", "red")
         .style("opacity", 1.0)
@@ -123,8 +124,8 @@ Promise.all([
 
     circles
     .append("circle")
-    .attr("cx", d => xScale(d.x))
-    .attr("cy", d => yScale(d.y))
+    .attr("cx", d => xScale(d[x]))
+    .attr("cy", d => yScale(d[y]))
     .attr("r", 10)
     .attr("fill", "red")
         .style("opacity", 1.0)
