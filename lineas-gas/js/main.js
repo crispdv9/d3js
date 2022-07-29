@@ -41,7 +41,7 @@ let tooltip = svg.append("text")
     .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.json("https://raw.githubusercontent.com/crispdv9/d3js/main/lineas-gas/datos/gas2.json")
+    d3.json("https://raw.githubusercontent.com/crispdv9/d3js/main/lineas-gas/datos/gas2(1).json")
 ]).then(function(datos) {
 
     let data = datos[0];

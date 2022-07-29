@@ -1,0 +1,103 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tooltip {
+    background: rgba(255,255,255,.9);
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 4px;
+    pointer-events: none;
+    text-align: left;
+}
+
+.tooltip p {
+    margin: 4px 0;
+}
+
+h2{
+    width: 30%;
+    margin:0 auto;
+
+}
+
+p{
+padding-top:2em;
+width: 30%;
+margin:0 auto;
+}
+
+p a{
+  color:black;
+    }
+
+    @media (max-width: 800px) {
+  
+        h2{
+            width: 80%;
+            margin:0 auto;
+        
+        }
+        
+        p{
+        padding-top:2em;
+        width: 80%;
+        margin:0 auto;
+        }
+
+        }
+    @media (max-width: 600px) {
+  
+        h2{
+            width: 100%;
+            margin:0 auto;
+        
+        }
+        
+        p{
+        padding-top:2em;
+        padding-bottom:2em;
+
+        width: 100%;
+        margin:0 auto;
+        }
+
+        }
+
+        @media (max-width: 400px) {
+  
+            h2{
+                width: 100%;
+                margin:0 auto;
+            
+            }
+            
+            p{
+            padding-top:2em;
+            width: 100%;
+            margin:0 auto;
+            }
+    
+            }
+
+            @media (max-width: 300px) {
+  
+                h2{
+                    width: 100%;
+                    margin:0 auto;
+                
+                }
+                
+                p{
+                padding-top:2em;
+                width: 100%;
+                margin:0 auto;
+                }
+        
+                }
+
+
+
+
+
