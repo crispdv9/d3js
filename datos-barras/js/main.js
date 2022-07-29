@@ -1,7 +1,7 @@
 const div = d3.select("#barras");
 
 
-const width = div.node().getBoundingClientRect().width;;
+const width = (div.node().getBoundingClientRect().width)/2;
 const height = 3/5 * width;
 
 const margin = {

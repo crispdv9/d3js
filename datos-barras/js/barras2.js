@@ -4,7 +4,7 @@ Promise.all([
 
     const div = d3.select("#barras2");
 
-    const width = div.node().getBoundingClientRect().width;
+    const width = (div.node().getBoundingClientRect().width)/2;
     const height = 3/5 * width;;
 
     const margin = {
@@ -52,7 +52,7 @@ let yLabel = yAxis.append("g")
     .attr("display", "none")
     .attr("transform", `translate(30, ${margin.top}) rotate(0)`);
 
-    let tooltip = svg.append("text")
+    let tooltip2 = svg.append("text")
     .style("font-size", "10px")
     .style("font-family", 'Open Sans',"sans-serif");
         
@@ -106,14 +106,14 @@ bars.enter()
     .attr("y", d => yScale(d[y]))
     .attr("height", d => height - margin.bottom - yScale(d[y]))
     .attr("width", xScale.bandwidth())
-    .style('fill', '#f3c598')
+    .style('fill', '#112039')
     .on("mousemove", (event, d) => {
         // Actualiza barras
         d3.select(event.target)
-            .style("fill", "#ba8959");
+            .style("fill", "#081224");
         // Actualiza tooltip
         //toltip
-        tooltip.html(`<p><strong>Distrito</strong> ${d.Distrito}</p>
+        tooltip2.html(`<p><strong>Distrito</strong> ${d.Distrito}</p>
         <p><strong>Esperanza de vida en <b style="background-color:#f3c598;padding:1px 4px">mujeres</b></strong> ${d.mujer} años</p>
         <p><strong>Esperanza de vida en <b style="background-color:#112039;color:white;padding:1px 4px">hombres</b></strong> ${d.hombre} años</p>
        `)
@@ -124,9 +124,9 @@ bars.enter()
     .on("mouseout", () => {
         // Actualiza barras
         d3.selectAll('.bar')
-            .style("fill", "#f3c598");
+            .style("fill", "#112039");
         // Actualiza tooltip
-        tooltip.style("display", "none");
+        tooltip2.style("display", "none");
     });
 
 bars
@@ -135,22 +135,22 @@ bars
     .attr("y", d => yScale(d[y]))
     .attr("height", d => height - margin.bottom - yScale(d[y]))
     .attr("width", xScale.bandwidth())
-    .style('fill', '#f3c598')
+    .style('fill', '#112039')
     .on("mousemove", (event, d) => {
         // Actualiza barras
         d3.select(event.target)
-            .style("fill", "#ba8959");
+            .style("fill", "#081224");
         // Actualiza tooltip
-        tooltip.attr('x', xScale(d[x]))
+        tooltip2.attr('x', xScale(d[x]))
             .attr("y", yScale(d[y]) - 10)
             .text(d[y] + ' años');
     })
     .on("mouseout", () => {
         // Actualiza barras
         d3.selectAll('.bar')
-            .style("fill", "#f3c598");
+            .style("fill", "#112039");
         // Actualiza tooltip
-        tooltip.text('');
+        tooltip2.text('');
     });
 
 bars.exit().remove();
