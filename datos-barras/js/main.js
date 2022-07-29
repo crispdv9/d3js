@@ -73,6 +73,14 @@ Promise.all([
     xLabel.text(x);
     yLabel.text(y);
 
+    let tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("display", "none")
+    .style("position", "absolute")
+    .style("z-index", 1)
+    .style("left", 0)
+    .style("top", 0);
+
     let bars = svg.selectAll(".bar")
         .data(data);
 
@@ -83,22 +91,27 @@ Promise.all([
         .attr("y", d => yScale(d[y]))
         .attr("height", d => height - margin.bottom - yScale(d[y]))
         .attr("width", xScale.bandwidth())
-        .style('fill', 'steelblue')
+        .style('fill', '#f3c598')
         .on("mousemove", (event, d) => {
             // Actualiza barras
             d3.select(event.target)
-                .style("fill", "red");
+                .style("fill", "#ba8959");
             // Actualiza tooltip
-            tooltip.attr('x', xScale(d[x]))
-                .attr("y", yScale(d[y]) - 10)
-                .text(d[y] + '%');
+            //toltip
+            tooltip.html(`<p><strong>Región</strong> ${d.region}</p>
+            <p><strong>Population</strong> ${d.Total}</p>
+            <p><strong>GDP per capita</strong> ${d.x}</p>
+            <p><strong>Life expectancy</strong> ${d.y}</p>`)
+            .style("left", (event.pageX + 10) + 'px')
+            .style("top", event.pageY + 'px')
+            .style("display", "block");
         })
         .on("mouseout", () => {
             // Actualiza barras
             d3.selectAll('.bar')
-                .style("fill", "steelblue");
+                .style("fill", "#f3c598");
             // Actualiza tooltip
-            tooltip.text('');
+            tooltip.style("display", "none");
         });
 
     bars
@@ -107,20 +120,20 @@ Promise.all([
         .attr("y", d => yScale(d[y]))
         .attr("height", d => height - margin.bottom - yScale(d[y]))
         .attr("width", xScale.bandwidth())
-        .style('fill', 'steelblue')
+        .style('fill', '#f3c598')
         .on("mousemove", (event, d) => {
             // Actualiza barras
             d3.select(event.target)
-                .style("fill", "red");
+                .style("fill", "#ba8959");
             // Actualiza tooltip
             tooltip.attr('x', xScale(d[x]))
                 .attr("y", yScale(d[y]) - 10)
-                .text(d[y] + 'años');
+                .text(d[y] + ' años');
         })
         .on("mouseout", () => {
             // Actualiza barras
             d3.selectAll('.bar')
-                .style("fill", "steelblue");
+                .style("fill", "#f3c598");
             // Actualiza tooltip
             tooltip.text('');
         });
