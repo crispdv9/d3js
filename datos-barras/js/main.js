@@ -1,13 +1,13 @@
 const div = d3.select("#barras");
 
 
-const width = (div.node().getBoundingClientRect().width)/2;
-const height = 3/5 * width;
+const width = (div.node().getBoundingClientRect().width);
+const height = 4/5 * width;
 
 const margin = {
     left: 80,
     right: 20,
-    top: 10,
+    top: 50,
     bottom: 100,
 };
 
@@ -15,7 +15,6 @@ const margin = {
 let svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
-
 
 
 let xAxis = svg.append("g")
@@ -77,7 +76,7 @@ Promise.all([
 
     let yScale = d3.scaleLinear()
         .range([height - margin.bottom, margin.top])
-        .domain([80, 90]);
+        .domain([70, 90]);
 
     xAxis.call(d3.axisBottom(xScale))
         .selectAll("text")

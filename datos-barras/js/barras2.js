@@ -1,16 +1,16 @@
 Promise.all([
-    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/datos-barras/datos/esp-hombre.csv")
+    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/datos-barras/datos/esp-hombre-2.csv")
 ]).then(function(datos) {
 
     const div = d3.select("#barras2");
 
-    const width = (div.node().getBoundingClientRect().width)/2;
-    const height = 3/5 * width;;
+    const width = (div.node().getBoundingClientRect().width);
+    const height = 4/5 * width;
 
     const margin = {
         left: 80,
         right: 20,
-        top: 10,
+        top: 50,
         bottom: 100,
     };
 
@@ -52,9 +52,9 @@ let yLabel = yAxis.append("g")
     .attr("display", "none")
     .attr("transform", `translate(30, ${margin.top}) rotate(0)`);
 
-    let tooltip2 = svg.append("text")
-    .style("font-size", "10px")
-    .style("font-family", 'Open Sans',"sans-serif");
+    //let tooltip = svg.append("text")
+   // .style("font-size", "10px")
+    //.style("font-family", 'Open Sans',"sans-serif");
         
     let data = datos[0];
 
@@ -84,6 +84,7 @@ let yLabel = yAxis.append("g")
         .attr("dy", ".5em")
         .attr("fill", "#757a85")
         .attr("transform", "rotate(-90)");
+
     yAxis.call(d3.axisLeft(yScale))
     .selectAll("text")
     .attr("fill", "#757a85")
@@ -95,13 +96,20 @@ let yLabel = yAxis.append("g")
     .selectAll("text")
     .attr("fill", "#757a85");
 
-    
-    let bars = svg.selectAll(".bar")
+    let tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("display", "none")
+    .style("position", "absolute")
+    .style("z-index", 1)
+    .style("left", 0)
+    .style("top", 0);
+
+    let bars2 = svg.selectAll(".bar2")
     .data(data);
 
-bars.enter()
+bars2.enter()
     .append("rect")
-    .attr("class", "bar")
+    .attr("class", "bar2")
     .attr("x", d => xScale(d[x]))
     .attr("y", d => yScale(d[y]))
     .attr("height", d => height - margin.bottom - yScale(d[y]))
@@ -113,24 +121,23 @@ bars.enter()
             .style("fill", "#081224");
         // Actualiza tooltip
         //toltip
-        tooltip2.html(`<p><strong>Distrito</strong> ${d.Distrito}</p>
-        <p><strong>Esperanza de vida en <b style="background-color:#f3c598;padding:1px 4px">mujeres</b></strong> ${d.mujer} años</p>
-        <p><strong>Esperanza de vida en <b style="background-color:#112039;color:white;padding:1px 4px">hombres</b></strong> ${d.hombre} años</p>
-       `)
+        tooltip.html(`<p><strong>Distrito</strong> ${d.Distrito}</p>
+        <p><strong>Esperanza de vida en <b style="background-color:#112039;color:white;padding:1px 4px">hombres</b></strong> ${d.hombre} años</p
+        <p><strong>Esperanza de vida en <b style="background-color:#f3c598;padding:1px 4px">mujeres</b></strong> ${d.mujer} años</p>`)
         .style("left", (event.pageX + 10) + 'px')
         .style("top", event.pageY + 'px')
         .style("display", "block");
     })
     .on("mouseout", () => {
         // Actualiza barras
-        d3.selectAll('.bar')
+        d3.selectAll('.bar2')
             .style("fill", "#112039");
         // Actualiza tooltip
-        tooltip2.style("display", "none");
+        tooltip.style("display", "none");
     });
 
-bars
-    .attr("class", "bar")
+bars2
+    .attr("class", "bar2")
     .attr("x", d => xScale(d[x]))
     .attr("y", d => yScale(d[y]))
     .attr("height", d => height - margin.bottom - yScale(d[y]))
@@ -141,17 +148,17 @@ bars
         d3.select(event.target)
             .style("fill", "#081224");
         // Actualiza tooltip
-        tooltip2.attr('x', xScale(d[x]))
+        tooltip.attr('x', xScale(d[x]))
             .attr("y", yScale(d[y]) - 10)
             .text(d[y] + ' años');
     })
     .on("mouseout", () => {
         // Actualiza barras
-        d3.selectAll('.bar')
+        d3.selectAll('.bar2')
             .style("fill", "#112039");
         // Actualiza tooltip
-        tooltip2.text('');
+        tooltip.text('');
     });
 
-bars.exit().remove();
+bars2.exit().remove();
 })
