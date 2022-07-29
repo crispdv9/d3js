@@ -41,7 +41,7 @@ let tooltip = svg.append("text")
     .style("font-family", "sans-serif");
 
 Promise.all([
-    d3.csv("data/gas.csv")
+    d3.csv("datos/gas.csv")
 ]).then(function(datos) {
 
     let data = datos[0];
