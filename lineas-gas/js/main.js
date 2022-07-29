@@ -47,10 +47,13 @@ Promise.all([
     let data = datos[0];
     console.log(data)
 
-    let dateParse = d3.timeParse("%Y-%m-%d");
+    
 
-    const x = 'week';
+    let dateParse = d3.timeParse("%d-%m-%Y");
+
+    const x = 'fecha';
     const y = 'valor';
+    const z = 'pais'
 
     data.forEach(d => {
         d.values.forEach(v => {
@@ -85,8 +88,13 @@ Promise.all([
     xLabel.text(x);
     yLabel.text(y);
 
+    
+
     let curves = svg.selectAll(".curve")
         .data(data);
+
+
+        
 
     curves.enter()
         .append("path")
@@ -108,7 +116,7 @@ Promise.all([
             // Actualiza tooltip
             tooltip.attr('x', xScale(d.values[d.values.length - 1][x]) + 5)
                 .attr("y", yScale(d.values[d.values.length - 1][y]))
-                .text(d.region);
+                .text(d.pais);
         })
         .on("mouseout", () => {
             // Actualiza barras
@@ -137,7 +145,7 @@ Promise.all([
             // Actualiza tooltip
             tooltip.attr('x', xScale(d.values[d.values.length - 1][x]) + 5)
                 .attr("y", yScale(d.values[d.values.length - 1][y]))
-                .text(d.region);
+                .text(d.pais);
         })
         .on("mouseout", () => {
             // Actualiza barras
