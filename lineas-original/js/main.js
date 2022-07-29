@@ -46,7 +46,7 @@ let yLabel = yAxis.append("g")
     .style("top", 0);
 
 Promise.all([
-    d3.json("https://raw.githubusercontent.com/fbecerra/dataexperiments/master/data/casos_covid19.json")
+    d3.csv("https://raw.githubusercontent.com/crispdv9/d3js/main/lineas-original/data/temperatura-max.csv")
 ]).then(function(datos) {
 
     let data = datos[0];
@@ -56,8 +56,8 @@ Promise.all([
 
     let dateParse = d3.timeParse("%Y-%m-%d");
 
-    const x = 'Fecha';
-    const y = 'Total';
+    const x = 'fecha';
+    const y = 'Temperaturamedia-maximanormal';
 
     data.forEach(d => {
         d.values.forEach(v => {
